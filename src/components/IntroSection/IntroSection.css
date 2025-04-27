@@ -1,0 +1,54 @@
+.hero {
+  padding-top: 40px;
+  background-color: #141024;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-left {
+  padding-top: 190px;
+  margin-right: 194px;
+}
+
+.hero-title {
+  width: 516px;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 20px;
+  width: 478px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #D52027;
+  color: #fff;
+  text-align: center;
+  width: 262px;
+  max-height: 80px;
+  padding: 25px 50px;
+  border-radius: 5px;
+  border: 3px solid #D52027;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.hero-button:hover {
+  background-color: #fff;
+  color: #D52027;
+}
+
+.hero-image {
+  max-width: 560px;
+  height: 665px;
+}

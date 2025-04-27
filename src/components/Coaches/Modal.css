@@ -1,0 +1,99 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  width: 940px; /* Задайте ширину модального окна при необходимости */
+  text-align: center;
+}
+
+.modal-button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  color: #14102470;
+}
+
+.modal-button:hover {
+  color: #D52027;
+}
+
+.modal-header {
+  display: flex;
+}
+
+.modal-image {
+  width: 160px;
+}
+
+.modal-header-left {
+  margin-right: 40px;
+}
+
+.modal-h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.facebook-icon {
+  margin-right: 10px;
+}
+
+.modalDescription {
+  color: black;
+  text-align: start;
+  font-size: 20px;
+}
+
+.modal-selected-button {
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  color: #14102420;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 180px;
+  transition: all 0.3s;
+}
+
+.modal-selected-button:last-of-type {
+  margin-right: 0;
+}
+
+.modal-selected-button:hover {
+  color: #141024;
+}
+
+.modal-selected-button.active {
+  color: #D52027;
+}
+
+.rectangle {
+  height: 1px;
+  width: 860px;
+  background-color: #14102411;
+  margin-bottom: 12px;
+}

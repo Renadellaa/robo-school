@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #141024;
+  height: 159px;
+  padding: 40px 100px;
+}
+
+.footer-contact-number {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  transition: all 0.4s ease-out;
+}
+
+.footer-contact-number:hover {
+  color: #D52027;
+}

@@ -1,0 +1,89 @@
+.coaches {
+  padding: 120px 0;
+}
+
+.coaches-image {
+  margin-bottom: 20px;
+}
+
+.coaches-h3 {
+  margin-bottom: 10px;
+}
+
+.button-coaches {
+  position: relative;
+  color: #D52027;
+  font-size: 18px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.button-coaches::before,
+.button-coaches::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px; /* Толщина линии */
+  background-color: #D52027; /* Цвет линии */
+  left: 0;
+  opacity: 0; /* Начальное состояние невидимо */
+  transform: scaleX(0); /* Начальное состояние: невидимо */
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Плавный переход */
+}
+
+.button-coaches::before {
+  transform-origin: right; /* Начинаем анимацию справа */
+  top: -5px; /* Положение сверху */
+}
+
+.button-coaches::after {
+  transform-origin: left;
+  bottom: -5px; /* Положение снизу */
+}
+
+.button-coaches:hover::before,
+.button-coaches:hover::after {
+  opacity: 1; /* Включаем невидимость при наведении */
+  transform: scaleX(1); /* Анимация до полной ширины при наведении */
+}
+
+.slick-slide {
+  /* Общие стили для слайдов */
+  transition: transform 0.5s ease;
+  padding: 20px; /* Отступ между слайдами */
+  color: #141024;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+  background-color: transparent;
+  font-size: 33px;
+  color: #141024; /* Меняем цвет значков на кнопках */
+  opacity: 1;
+}
+
+.slick-prev:hover, 
+.slick-next:hover {
+  opacity: 0.5;
+}
+
+.slick-prev {
+  top: 700px;
+  left: 1000px;
+}
+
+.slick-next {
+  top: 700px;
+  right: 80px;
+}
+
+.slider-line {
+  width: 360px;
+  height: 4px; /* Высота линии */
+  background-color: black; /* Серый цвет линии по умолчанию */
+  margin: 20px 0; /* Отступы сверху и снизу */
+  border-radius: 2px; /* Закругление краев (по желанию) */
+}

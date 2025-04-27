@@ -1,0 +1,30 @@
+.perspectives {
+  background-color: #F9F9F9;
+}
+
+.perspectives-container {
+  padding: 100px 0;
+}
+
+.perspectives-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.perspectives-h3 {
+  margin-bottom: 20px;
+}
+
+.perspectives-h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  color: #141024;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.tooltip {
+  display: flex;
+}

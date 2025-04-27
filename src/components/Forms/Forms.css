@@ -1,0 +1,74 @@
+.forms {
+  background-color: #D52027;
+}
+
+.form {
+  display: flex;
+}
+
+.forms-text {
+  margin-top: 106px;
+  margin-left: 60px;
+  margin-right: 144px;
+  width: 400px;
+}
+
+.p-forms {
+  font-weight: 600;
+  font-size: 36px;
+  color: #fff;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+.sale-date {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 214px;
+}
+
+.forms-input {
+  padding-top: 87px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.forms-input-item {
+  width: 500px;
+  height: 64px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #282944;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-forms {
+  width: 500px;
+  height: 64px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #141024;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+.button-forms:hover {
+  background-color: #fff;
+  color: #D52027;
+}
+
+.error {
+  font-size: 18px;
+  color: #fff;
+  display: none;
+  padding-bottom: 5px;
+}
+
+input:invalid[focused = 'true'] ~ .error {
+  display: block;
+}

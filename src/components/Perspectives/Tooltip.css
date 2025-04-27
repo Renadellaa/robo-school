@@ -1,0 +1,43 @@
+.tooltip-container {
+  position: relative;
+  top: -150px;
+  left: 900px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 270px;
+  height: 56px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #141024;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Позиция tooltip */
+  left: 50%;
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon-info {
+  background-color: #14102408; /* Серый фон */
+  color: #141024; /* Черный цвет буквы */
+  border-radius: 50%; /* Круглая форма */
+  width: 24px; /* Ширина */
+  height: 24px; /* Высота */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

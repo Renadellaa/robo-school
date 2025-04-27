@@ -1,0 +1,26 @@
+.about-container {
+  padding: 120px 0;
+}
+
+.about-description {
+  font-size: 30px;
+  max-width: 891px;
+  color: #141024;
+  margin-bottom: 60px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.about-h4 {
+  color: #D52027;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.p-description .p-about {
+  max-width: 260px;
+}
